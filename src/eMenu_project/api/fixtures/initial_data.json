@@ -1,0 +1,47 @@
+     [
+          {
+               "model": "api.dish",
+               "pk": 1,
+               "fields": {
+                    "user": 1,
+                    "name": "Bigos",
+                    "description": "Staropolskie danie z kapusty i mięsa",
+                    "price": 50,
+                    "preparation_time": 30,
+                    "created": "2023-01-23",
+                    "updated": "2023-01-23",
+                    "vegetarian": false,
+                    "photo": null
+               }
+          },
+          {
+               "model": "api.dish",
+               "pk": 2,
+               "fields": {
+                    "user": 1,
+                    "name": "Schabowy",
+                    "description": "Wyśmienity kotlet w panierce",
+                    "price": 80,
+                    "preparation_time": 25,
+                    "created": "2023-01-23",
+                    "updated": "2023-01-23",
+                    "vegetarian": false,
+                    "photo": null
+               }
+          },
+          {
+               "model": "api.card",
+               "pk": 1,
+               "fields": {
+                    "user": 1,
+                    "name": "Kuchnia Polska",
+                    "description": "Dania  tradycyjnej kuchni polskiej",
+                    "dishes": [
+                         1,
+                         2
+                    ],
+                    "created": "2023-01-23",
+                    "updated": "2023-01-23"
+               }
+          }
+     ]
